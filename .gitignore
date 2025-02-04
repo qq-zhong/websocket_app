@@ -1,0 +1,25 @@
+# Ignore Composer vendor directory
+vendor/
+
+# Ignore Composer lock file (optional, if you want dependencies to be installed fresh)
+composer.lock
+
+# Ignore environment or configuration files (if applicable)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any temporary files
+*.tmp
+*.cache
+*.bak
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
